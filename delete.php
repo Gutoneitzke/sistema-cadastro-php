@@ -1,9 +1,21 @@
 <?php
-    include_once("config.php");
 
-    $id = $_GET['id'];
+    if(!empty($_GET['id']))
+    {
+        include_once('config.php');
 
-    $result = mysqli_query($conexao, "DELETE FROM usuarios WHERE id=$id");
+        $id = $_GET['id'];
 
-    header("Location:index.php");
+        $sqlSelect = "SELECT *  FROM usuarios WHERE id=$id";
+
+        $result = $conexao->query($sqlSelect);
+
+        if($result->num_rows > 0)
+        {
+            $sqlDelete = "DELETE FROM usuarios WHERE id=$id";
+            $resultDelete = $conexao->query($sqlDelete);
+        }
+    }
+    header('Location: sistema.php');
+   
 ?>
