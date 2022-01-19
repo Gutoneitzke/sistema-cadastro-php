@@ -1,4 +1,16 @@
-# Sistema de cadastro
-Sistema de Cadastro com login, formulário e sessões com PHP
-<img src="https://1.bp.blogspot.com/-Dbn_eeedJX0/YNss2wyLbiI/AAAAAAAAArY/hOc0jGdlqoMY_b45AV-201q52JFJu5Z7wCLcBGAsYHQ/s1280/cadastro-php.png">
-Aula no YouTube: https://youtu.be/15CXhnQkilY
+# Sistema de cadastro 🖥
+Aprenda como criar um fantástico sistema com:
+<br>
+<ul>
+  <li>Tela de Home</li>
+  <li>Tela de Login</li>
+  <li>Cadastro</li>
+  <li>Listagem de registros</li>
+  <li>Sessões</li>
+  <li>Edição de Registros</li>
+  <li>Deleção de Registros</li>
+  <li>Pesquisa</li>
+  <li>...</li>
+</ul>
+<br>
+Nossa playlist: https://youtube.com/playlist?list=PLSHNk_yA5fNjoIRNHV-3FprsN3NWPcnnK
